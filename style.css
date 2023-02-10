@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.main{
+    width: 100%;
+    background-color:rgb(13, 131, 146);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    font-family: sans-serif;
+
+}
+
+
+.navbar{
+    width: 88%;
+    display: flex;
+    margin: auto;
+    padding: 18px 0;
+    align-items: center;
+    justify-content: space-evenly;
+    cursor: pointer;
+    font-family: Cambria;
+    font-size: 100;
+
+}
+
+ul{
+    margin-top: 1%;
+}
+
+ul li{
+    list-style: none;
+    display:list-item;
+    padding: 14px 16px;
+    color: white;
+}
+
+ul li a{
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    margin-top: 1%;
+    transition: .4s ease;
+
+}
+
+ul li a:hover{
+    color: palevioletred;
+}
+
+.aboutme{
+margin-left: 8%;
+margin-top: 6%;
+
+}
+
+.aboutme h1{
+    font-size: 35px;
+    color: black;
+}
+
+.aboutme h2{
+    font-size: 30px;
+    color: black;
+}
+
+.aboutme h3{
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 24px;
+}
+
+.aboutme span{
+    color: white;
+}
+
+.avatar{
+    width: 10%;
+    height: 40%;
+    position: absolute;
+    right: 400px;
+    bottom: 40;
+}
+
+.avatar img{
+    position: absolute;
+    height: 70%;
+    left: 40%;
+    bottom: 200;
+}
