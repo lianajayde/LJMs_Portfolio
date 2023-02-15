@@ -17,51 +17,54 @@
                 <li><a href="#">HOME</a></li>
                 <li><a href="#aboutmesec">ABOUT ME</a></li>
                 <li><a href="#projectsecone">MY PROJECTS</a></li>
-                <li><a href="#">CONTACT INFO</a></li>
+                <li><a href="#aboutmesec">CONTACT INFO</a></li>
             </ul>
             </div>
 
-            <img class="avatar" src="/images/blondeavatar.jpg" height="400" alt="This is an avatar image">
+            <img class="avatar" src="images/blondeavatar.jpg" height="400" alt="This is an avatar image">
 
             <!--this is the about me section, the marquee tag moves my text
                 across the webpage-->
             <div class="aboutme">
             <section id="aboutmesec">
                 <h1>Hello! My name is Liana Moore.</h1><br>
-                <h2><span><marquee>Future</span> Web Developer</marquee></h2><br>
+                <!--The marquee behavior allows for the text to slide onto the page
+                    and stop at the left side of the page-->
+                <h2><span><marquee behavior="slide" direction="left">Future</span> Web Developer</marquee></h2><br>
                 <h4><p>I was born 27 years ago and I live in a small city named Janesville, located in the state of Wisconsin.<br>
                 I attended UW-Whitewater for 2 years and have an Associates Degree in Computer Science.<br>
                 <h4>My interest in coding began when I was a teenager, as I enjoyed<br>
                     editing the codes in my MySpace profile, using html to create some<br>
                     pretty awesome layouts for my personal page.<br>
                     Now I am attending a bootcamp to gain much more knowledge on becoming an amazing web developer!<br>
-                </h4></p>
+                </h4></p><br>
+                <marquee behavior="scroll" direction="up"><h3>CONTACT ME</h3></marquee><br>
+            <h4>Email: liana.moore111@gmail.com<br>
+                GitHub: <a href="https://github.com/lianajayde">https://github.com/lianajayde</a><br>
+                </h4>
+                
+
             
             </section>
             </div>
             <br>
-            <!--This is where my projects are/will be listed-->
+            <!--This is where my projects are/will be listed.-->
             <br>
             <div class="projects">
             <section id="projectsecone">
                 <h2>Horiseon Refactor</h2><br>
                 <div class="grow">
-                <a href="https://github.com/lianajayde/HoriseonRefactor">
-                <img class="horiseon" src="/images/horiseorefactor.png" height="500" width="800" alt="horiseon webpage deployed screenshot" title="Horiseon Refactor">
+                <a href="https://lianajayde.github.io/HoriseonRefactor/index.html">
+                <img class="horiseon" src="images/horiseorefactor.png" height="500" width="800" alt="horiseon webpage deployed screenshot" title="Horiseon Refactor">
                 </a>
-                <h2>Future Projects Coming Soon..</h2><br>
-                <img class="futureplaceholder" src="/images/futproj.jfif" height="300" width="300" alt="picture of placeholder for future projects" title="New Projects Coming Soon!">
-
+                <!--marquee behavior allows the text and image to bounce back and forth on page-->
+                <marquee behavior="alternate"><h2>Future Projects Coming Soon..</h2><br>
+                <img class="futureplaceholder" src="images/futproj.jfif" height="300" width="300" alt="picture of placeholder for future projects" title="New Projects Coming Soon!">
+            <br>
+            </marquee>
             </section>
             </div>
-            </div>
-            </div>
-
-        
-            
-
-
-
+        </div>
 
 
         </div>
